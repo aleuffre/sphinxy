@@ -19,6 +19,7 @@ extensions = [
     "sphinx.ext.githubpages",  # don't use jekyll on github pages
 ]
 
+autodoc_default_options = {"ignore-module-all": True}
 autoclass_content = "both"  # get docs from docstrings and from init file
 
 templates_path = ["_templates"]
