@@ -16,6 +16,7 @@ author = "Alessandro Uffreduzzi"
 extensions = [
     "sphinx.ext.autodoc",  # pull documentation from docstrings
     "sphinx.ext.napoleon",  # how to parse google/numpy style docstrings
+    "sphinx.ext.githubpages",  # don't use jekyll on github pages
 ]
 
 autoclass_content = "both"  # get docs from docstrings and from init file
